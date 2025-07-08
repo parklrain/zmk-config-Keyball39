@@ -4,7 +4,6 @@
 #define SCROLL  3
 #define SNIPE   4
 
-
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
@@ -417,10 +416,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&kp LBRC   &kp AMPS  &kp ASTRK  &kp LPAR   &kp RBRC                     &mkp MCLK  &kp HOME   &trans    &kp END    &kp DEL
-&kp DQT    &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS                     &mkp MB4   &mkp LCLK  &kp UP    &mkp RCLK  &kp PG_UP
-&kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp PIPE                     &mkp MB5   &kp LEFT   &kp DOWN  &kp RIGHT  &kp PG_DN
-&kp LCTRL  &kp LWIN  &kp LALT   &kp LPAR   &kp RPAR  &kp UNDER  &trans  &trans                                     &trans
+&kp LBRC   &kp AMPS  &kp ASTRK  &kp LPAR   &kp RBRC                       &mkp MCLK  &kp HOME   &trans    &kp END    &kp DEL
+&kp DQT    &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS                       &mkp MB4   &mkp LCLK  &kp UP    &mkp RCLK  &kp PG_UP
+&kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp PIPE                       &mkp MB5   &kp LEFT   &kp DOWN  &kp RIGHT  &kp PG_DN
+&kp LCTRL  &kp LWIN  &kp LALT   &kp LPAR   &kp RPAR  &lt 3 UNDER  &trans  &trans                                     &lt 3 DEL
             >;
         };
 
