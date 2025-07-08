@@ -116,10 +116,10 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - (
   - {t: ), type: held}
-  - _
+  - {t: _, h: SCROLL}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: SCROLL}
   SCROLL:
   - PRINTSCREEN
   - SCROLLLOCK
@@ -155,10 +155,10 @@ layers:
   - LWIN
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {type: held alternate}
   SYS:
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -195,10 +195,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held}
   - {type: held}
 combos:
 - p: [10, 11]
