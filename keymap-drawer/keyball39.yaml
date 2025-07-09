@@ -67,8 +67,8 @@ layers:
   - {t: '3', s: '#'}
   - {t: \, s: '|'}
   - '*'
-  - {t: F1, type: held alternate}
-  - F2
+  - F1
+  - {t: F2, type: held alternate}
   - {t: F3, type: held alternate}
   - F10
   - $$mdi:apple-keyboard-control$$
@@ -137,9 +137,9 @@ layers:
   - Ctl+F
   - Ctl+G
   - '&mkp MB4'
-  - {t: '$$mdi:mouse-left-click-outline$$', type: held alternate}
+  - $$mdi:mouse-left-click-outline$$
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:mouse-right-click-outline$$', type: held alternate}
+  - $$mdi:mouse-right-click-outline$$
   - PG UP
   - Ctl+Z
   - Ctl+X
@@ -147,8 +147,8 @@ layers:
   - Ctl+V
   - Ctl+Y
   - '&mkp MB5'
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:arrow-left-bold$$', type: held alternate}
+  - {t: '$$mdi:arrow-down-bold$$', type: held alternate}
   - $$mdi:arrow-right-bold$$
   - PG DN
   - $$mdi:apple-keyboard-control$$
@@ -177,18 +177,18 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -313,10 +313,10 @@ combos:
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [SNIPE]
 - p: [26, 27]
-  k: $$mdi:apple-keyboard-option$$
+  k: SCROLL
   l: [QWER]
 - p: [27, 28]
-  k: $$mdi:apple-keyboard-control$$
+  k: SNIPE
   l: [QWER]
 - p: [33, 34]
   k: {t: MOUSE, h: toggle}
@@ -325,8 +325,11 @@ combos:
   k: {t: SCROLL, h: toggle}
   l: [QWER, SCROLL]
 - p: [16, 18]
-  k: SCROLL
+  k: $$mdi:apple-keyboard-option$$
   l: [QWER]
 - p: [26, 28]
-  k: SNIPE
+  k: $$mdi:apple-keyboard-control$$
+  l: [QWER]
+- p: [26, 25]
+  k: B
   l: [QWER]
