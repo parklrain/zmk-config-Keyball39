@@ -67,9 +67,9 @@ layers:
   - {t: '3', s: '#'}
   - {t: \, s: '|'}
   - '*'
-  - F1
+  - {t: F1, type: held alternate}
   - F2
-  - F3
+  - {t: F3, type: held alternate}
   - F10
   - $$mdi:apple-keyboard-control$$
   - LWIN
@@ -137,9 +137,9 @@ layers:
   - Ctl+F
   - Ctl+G
   - '&mkp MB4'
-  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:mouse-left-click-outline$$', type: held alternate}
   - $$mdi:arrow-up-bold$$
-  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:mouse-right-click-outline$$', type: held alternate}
   - PG UP
   - Ctl+Z
   - Ctl+X
@@ -177,6 +177,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -184,12 +187,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -324,3 +324,9 @@ combos:
 - p: [34, 35]
   k: {t: SCROLL, h: toggle}
   l: [QWER, SCROLL]
+- p: [16, 18]
+  k: SCROLL
+  l: [QWER]
+- p: [26, 28]
+  k: SNIPE
+  l: [QWER]
