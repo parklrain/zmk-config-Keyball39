@@ -1,8 +1,9 @@
 #define DEFAULT 0
-#define SYSTEM  1
+#define SNIPE   1
 #define MOUSE   2
 #define SCROLL  3
-#define SNIPE   4
+#define SYSTEM  4
+
 
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
