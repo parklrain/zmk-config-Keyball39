@@ -357,16 +357,16 @@
             require-prior-idle-ms = <100>;
         };
 
-        combo_ko_en {
-            bindings = <&kp RALT>;
+        combo_scroll {
+            bindings = <&mo 3>;
             key-positions = <26 27>;
             layers = <0>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
         };
 
-        combo_hanja {
-            bindings = <&kp RCTRL>;
+        combo_snipe {
+            bindings = <&mo 1>;
             key-positions = <27 28>;
             layers = <0>;
             timeout-ms = <50>;
@@ -389,17 +389,25 @@
             layers = <0 3>;
         };
 
-        combo_scroll {
-            bindings = <&mo 3>;
+        combo_ko_en {
+            bindings = <&kp RALT>;
             key-positions = <16 18>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
             layers = <0>;
         };
 
-        combo_snipe {
-            bindings = <&mo 1>;
+        combo_hanja {
+            bindings = <&kp RCTRL>;
             key-positions = <26 28>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_b {
+            bindings = <&kp B>;
+            key-positions = <26 25>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
             layers = <0>;
