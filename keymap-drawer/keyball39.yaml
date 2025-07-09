@@ -68,9 +68,9 @@ layers:
   - {t: \, s: '|'}
   - '*'
   - F1
-  - {t: F2, type: held alternate}
+  - F2
   - {t: F3, type: held alternate}
-  - F10
+  - {t: F10, type: held alternate}
   - $$mdi:apple-keyboard-control$$
   - LWIN
   - $$mdi:apple-keyboard-option$$
@@ -147,9 +147,9 @@ layers:
   - Ctl+V
   - Ctl+Y
   - '&mkp MB5'
-  - {t: '$$mdi:arrow-left-bold$$', type: held alternate}
+  - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:arrow-down-bold$$', type: held alternate}
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:arrow-right-bold$$', type: held alternate}
   - PG DN
   - $$mdi:apple-keyboard-control$$
   - LWIN
@@ -187,10 +187,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {type: held}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -313,10 +313,10 @@ combos:
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [SNIPE]
 - p: [26, 27]
-  k: SCROLL
+  k: $$mdi:apple-keyboard-option$$
   l: [QWER]
-- p: [27, 28]
-  k: SNIPE
+- p: [28, 26]
+  k: $$mdi:apple-keyboard-control$$
   l: [QWER]
 - p: [33, 34]
   k: {t: MOUSE, h: toggle}
@@ -324,12 +324,12 @@ combos:
 - p: [34, 35]
   k: {t: SCROLL, h: toggle}
   l: [QWER, SCROLL]
-- p: [16, 18]
-  k: $$mdi:apple-keyboard-option$$
+- p: [29, 28]
+  k: SNIPE
   l: [QWER]
-- p: [26, 28]
-  k: $$mdi:apple-keyboard-control$$
+- p: [28, 27]
+  k: SCROLL
   l: [QWER]
-- p: [26, 25]
+- p: [25, 26]
   k: B
   l: [QWER]
