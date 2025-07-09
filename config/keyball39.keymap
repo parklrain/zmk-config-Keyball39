@@ -4,7 +4,6 @@
 #define SCROLL  3
 #define SYSTEM  4
 
-
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
@@ -388,6 +387,22 @@
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
             layers = <0 3>;
+        };
+
+        combo_scroll {
+            bindings = <&mo 3>;
+            key-positions = <16 18>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_snipe {
+            bindings = <&mo 1>;
+            key-positions = <26 28>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
         };
     };
 
