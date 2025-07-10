@@ -201,37 +201,37 @@ layers:
   - {type: held}
   - {type: held}
 combos:
-- p: [10, 11]
+- p: [12, 13]
   k: $$mdi:apple-keyboard-shift$$
   l: [QWER, MOUSE, SCROLL]
 - p: [11, 12]
   k: $$mdi:apple-keyboard-control$$
   l: [QWER, MOUSE, SCROLL]
-- p: [12, 13]
+- p: [10, 11]
   k: $$mdi:apple-keyboard-option$$
   l: [QWER, MOUSE, SCROLL]
 - p: [13, 14]
   k: LWIN
   l: [QWER, MOUSE, SCROLL]
-- p: [18, 19]
+- p: [16, 17]
   k: $$mdi:apple-keyboard-shift$$
   l: [QWER, MOUSE, SCROLL]
 - p: [18, 17]
   k: $$mdi:apple-keyboard-control$$
   l: [QWER, MOUSE, SCROLL]
-- p: [17, 16]
+- p: [19, 18]
   k: $$mdi:apple-keyboard-option$$
   l: [QWER, MOUSE, SCROLL]
 - p: [16, 15]
   k: RWIN
   l: [QWER, MOUSE, SCROLL]
-- p: [10, 11, 12]
+- p: [11, 12, 13]
   k: Sft+$$mdi:apple-keyboard-control$$
   l: [QWER, MOUSE, SCROLL]
-- p: [10, 11, 13]
+- p: [10, 13, 12]
   k: Sft+$$mdi:apple-keyboard-option$$
   l: [QWER, MOUSE, SCROLL]
-- p: [11, 13, 12]
+- p: [11, 12, 10]
   k: Ctl+$$mdi:apple-keyboard-option$$
   l: [QWER, MOUSE, SCROLL]
 - p: [11, 13, 12, 10]
@@ -240,13 +240,13 @@ combos:
 - p: [16, 17, 18, 19]
   k: Ctl+LWIN
   l: [QWER, MOUSE, SCROLL]
-- p: [19, 18, 17]
+- p: [18, 17, 16]
   k: Sft+$$mdi:apple-keyboard-control$$
   l: [QWER, MOUSE, SCROLL]
-- p: [16, 18, 19]
+- p: [16, 19, 17]
   k: Sft+$$mdi:apple-keyboard-option$$
   l: [QWER, MOUSE, SCROLL]
-- p: [16, 18, 17]
+- p: [18, 17, 19]
   k: Ctl+$$mdi:apple-keyboard-option$$
   l: [QWER, MOUSE, SCROLL]
 - p: [0, 1]
