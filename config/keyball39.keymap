@@ -63,7 +63,7 @@
 
         combo_lshift {
             bindings = <&kp LSHIFT>;
-            key-positions = <10 11>;
+            key-positions = <12 13>;
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
@@ -79,7 +79,7 @@
 
         combo_lalt {
             bindings = <&kp LALT>;
-            key-positions = <12 13>;
+            key-positions = <10 11>;
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
@@ -95,7 +95,7 @@
 
         combo_rshigt {
             bindings = <&kp RSHIFT>;
-            key-positions = <18 19>;
+            key-positions = <16 17>;
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
@@ -111,7 +111,7 @@
 
         combo_ralt {
             bindings = <&kp LALT>;
-            key-positions = <17 16>;
+            key-positions = <19 18>;
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
@@ -127,7 +127,7 @@
 
         combo_lshift_lctrl {
             bindings = <&kp LS(LCTRL)>;
-            key-positions = <10 11 12>;
+            key-positions = <11 12 13>;
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
@@ -135,7 +135,7 @@
 
         combo_lshift_lalt {
             bindings = <&kp LS(LALT)>;
-            key-positions = <10 11 13>;
+            key-positions = <10 13 12>;
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
@@ -143,7 +143,7 @@
 
         combo_lctrl_lalt {
             bindings = <&kp LC(LALT)>;
-            key-positions = <11 13 12>;
+            key-positions = <11 12 10>;
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
@@ -167,7 +167,7 @@
 
         combo_rshift_rctrl {
             bindings = <&kp LS(LCTRL)>;
-            key-positions = <19 18 17>;
+            key-positions = <18 17 16>;
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
@@ -175,7 +175,7 @@
 
         combo_rshift_ralt {
             bindings = <&kp LS(LALT)>;
-            key-positions = <16 18 19>;
+            key-positions = <16 19 17>;
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
@@ -183,7 +183,7 @@
 
         combo_rctrl_ralt {
             bindings = <&kp LC(LALT)>;
-            key-positions = <16 18 17>;
+            key-positions = <18 17 19>;
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
