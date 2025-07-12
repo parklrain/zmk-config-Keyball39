@@ -359,7 +359,7 @@
 
         combo_lang {
             bindings = <&kp RALT>;
-            key-positions = <26 27>;
+            key-positions = <26 25>;
             layers = <0>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
@@ -367,7 +367,7 @@
 
         combo_hanja {
             bindings = <&kp RCTRL>;
-            key-positions = <28 26>;
+            key-positions = <25 27>;
             layers = <0>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
@@ -405,9 +405,41 @@
             layers = <0>;
         };
 
-        combo_b {
-            bindings = <&kp B>;
-            key-positions = <25 26>;
+        combo_lclk {
+            bindings = <&mkp LCLK>;
+            key-positions = <26 27>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_rclk {
+            bindings = <&mkp RCLK>;
+            key-positions = <26 28>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_mclk {
+            bindings = <&mkp MCLK>;
+            key-positions = <26 28 27>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_prev {
+            bindings = <&mkp MB4>;
+            key-positions = <26 16>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_next {
+            bindings = <&mkp MB5>;
+            key-positions = <17 27>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
             layers = <0>;
@@ -441,8 +473,8 @@
             label = "MOUSE";
             bindings = <
 &kp LBRC   &kp AMPS  &kp ASTRK  &kp LPAR   &kp RBRC                       &mkp MCLK  &kp HOME   &trans    &kp END    &kp DEL
-&kp DQT    &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS                       &mkp MB4   &mkp LCLK  &kp UP    &mkp RCLK  &kp PG_UP
-&kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp PIPE                       &mkp MB5   &kp LEFT   &kp DOWN  &kp RIGHT  &kp PG_DN
+&kp DQT    &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS                       &mkp MB4   &kp LEFT   &kp UP    &kp RIGHT  &kp PG_UP
+&kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp PIPE                       &mkp MB5   &mkp LCLK  &kp DOWN  &mkp RCLK  &kp PG_DN
 &kp LCTRL  &kp LWIN  &kp LALT   &kp LPAR   &kp RPAR  &lt 3 UNDER  &trans  &trans                                     &lt 3 DEL
             >;
         };
@@ -451,8 +483,8 @@
             label = "SCROLL";
             bindings = <
 &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &kp INS    &kp DEL                    &mkp MCLK  &kp HOME   &trans    &kp END    &kp DEL
-&kp LC(A)        &kp LC(S)       &kp LC(D)        &kp LC(F)  &kp LC(G)                  &mkp MB4   &mkp LCLK  &kp UP    &mkp RCLK  &kp PG_UP
-&kp LC(Z)        &kp LC(X)       &kp LC(C)        &kp LC(V)  &kp LC(Y)                  &mkp MB5   &kp LEFT   &kp DOWN  &kp RIGHT  &kp PG_DN
+&kp LC(A)        &kp LC(S)       &kp LC(D)        &kp LC(F)  &kp LC(G)                  &mkp MB4   &kp LEFT   &kp UP    &kp RIGHT  &kp PG_UP
+&kp LC(Z)        &kp LC(X)       &kp LC(C)        &kp LC(V)  &kp LC(Y)                  &mkp MB5   &mkp LCLK  &kp DOWN  &mkp RCLK  &kp PG_DN
 &kp LCTRL        &kp LWIN        &kp LALT         &trans     &trans     &trans  &trans  &trans                                     &trans
             >;
         };
