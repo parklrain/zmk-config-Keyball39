@@ -97,9 +97,9 @@ layers:
   - ^
   - +
   - '&mkp MB4'
-  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
-  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:arrow-right-bold$$
   - PG UP
   - '~'
   - '!'
@@ -107,9 +107,9 @@ layers:
   - '#'
   - '|'
   - '&mkp MB5'
-  - $$mdi:arrow-left-bold$$
+  - $$mdi:mouse-left-click-outline$$
   - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - $$mdi:mouse-right-click-outline$$
   - PG DN
   - $$mdi:apple-keyboard-control$$
   - LWIN
@@ -137,9 +137,9 @@ layers:
   - Ctl+F
   - Ctl+G
   - '&mkp MB4'
-  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
-  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:arrow-right-bold$$
   - PG UP
   - Ctl+Z
   - Ctl+X
@@ -147,9 +147,9 @@ layers:
   - Ctl+V
   - Ctl+Y
   - '&mkp MB5'
-  - $$mdi:arrow-left-bold$$
+  - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:arrow-down-bold$$', type: held alternate}
-  - {t: '$$mdi:arrow-right-bold$$', type: held alternate}
+  - {t: '$$mdi:mouse-right-click-outline$$', type: held alternate}
   - PG DN
   - $$mdi:apple-keyboard-control$$
   - LWIN
@@ -312,10 +312,10 @@ combos:
 - p: [21, 20]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [SNIPE]
-- p: [26, 27]
+- p: [26, 25]
   k: $$mdi:apple-keyboard-option$$
   l: [QWER]
-- p: [28, 26]
+- p: [25, 27]
   k: $$mdi:apple-keyboard-control$$
   l: [QWER]
 - p: [33, 34]
@@ -330,6 +330,18 @@ combos:
 - p: [28, 27]
   k: SCROLL
   l: [QWER]
-- p: [25, 26]
-  k: B
+- p: [26, 27]
+  k: $$mdi:mouse-left-click-outline$$
+  l: [QWER]
+- p: [26, 28]
+  k: $$mdi:mouse-right-click-outline$$
+  l: [QWER]
+- p: [26, 28, 27]
+  k: $$mdi:mouse-scroll-wheel$$
+  l: [QWER]
+- p: [26, 16]
+  k: '&mkp MB4'
+  l: [QWER]
+- p: [17, 27]
+  k: '&mkp MB5'
   l: [QWER]
