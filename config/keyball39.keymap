@@ -67,6 +67,7 @@
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
+            slow-release;
         };
 
         combo_lctrl {
@@ -75,6 +76,7 @@
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
+            slow-release;
         };
 
         combo_lalt {
@@ -83,6 +85,7 @@
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
+            slow-release;
         };
 
         combo_lwin {
@@ -91,6 +94,7 @@
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
+            slow-release;
         };
 
         combo_rshigt {
@@ -99,6 +103,7 @@
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
+            slow-release;
         };
 
         combo_rctrl {
@@ -107,6 +112,7 @@
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
+            slow-release;
         };
 
         combo_ralt {
@@ -115,6 +121,7 @@
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
+            slow-release;
         };
 
         combo_rwin {
@@ -123,6 +130,7 @@
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
+            slow-release;
         };
 
         combo_lshift_lctrl {
@@ -131,6 +139,7 @@
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
+            slow-release;
         };
 
         combo_lshift_lalt {
@@ -139,6 +148,7 @@
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
+            slow-release;
         };
 
         combo_lctrl_lalt {
@@ -147,6 +157,7 @@
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
+            slow-release;
         };
 
         combo_lctrl_lwin {
@@ -155,6 +166,7 @@
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
+            slow-release;
         };
 
         combo_rctrl_rwin {
@@ -163,6 +175,7 @@
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
+            slow-release;
         };
 
         combo_rshift_rctrl {
@@ -171,6 +184,7 @@
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
+            slow-release;
         };
 
         combo_rshift_ralt {
@@ -179,6 +193,7 @@
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
+            slow-release;
         };
 
         combo_rctrl_ralt {
@@ -187,6 +202,7 @@
             layers = <0 2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
+            slow-release;
         };
 
         combo_esc {
@@ -395,6 +411,7 @@
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
             layers = <0>;
+            slow-release;
         };
 
         combo_scroll {
@@ -403,6 +420,7 @@
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
             layers = <0>;
+            slow-release;
         };
 
         combo_lclk {
@@ -411,6 +429,7 @@
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
             layers = <0>;
+            slow-release;
         };
 
         combo_rclk {
@@ -419,6 +438,7 @@
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
             layers = <0>;
+            slow-release;
         };
 
         combo_mclk {
@@ -427,6 +447,7 @@
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
             layers = <0>;
+            slow-release;
         };
 
         combo_prev {
