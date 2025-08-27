@@ -345,3 +345,6 @@ combos:
 - p: [17, 27]
   k: '&mkp MB5'
   l: [QWER]
+- p: [11, 13]
+  k: $$mdi:apple-keyboard-caps$$
+  l: [QWER]
