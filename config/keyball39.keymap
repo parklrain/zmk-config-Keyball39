@@ -465,6 +465,14 @@
             require-prior-idle-ms = <100>;
             layers = <0>;
         };
+
+        combo_caps {
+            bindings = <&kp CAPS>;
+            key-positions = <11 13>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
     };
 
     keymap {
