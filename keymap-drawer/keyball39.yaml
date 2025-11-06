@@ -28,138 +28,138 @@ layers:
   - B
   - N
   - M
-  - {t: ',', s: <}
+  - {t: ',', h: SCROLL, s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - {t: /, h: SNIPE, s: '?'}
   - $$mdi:apple-keyboard-control$$
   - LWIN
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-esc$$', h: SNIPE}
-  - {t: '$$mdi:keyboard-space$$', h: MOUSE}
-  - {t: '$$mdi:keyboard-tab$$', h: SCROLL}
-  - {t: '$$mdi:keyboard-return$$', h: SNIPE}
-  - {t: '$$mdi:backspace$$', h: MOUSE}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: SCROLL}
-  SNIPE:
+  - {t: '$$mdi:keyboard-esc$$', h: NUM}
+  - {t: '$$mdi:keyboard-space$$', h: SYM}
+  - {t: '$$mdi:keyboard-tab$$', h: FNC}
+  - {t: '$$mdi:keyboard-return$$', h: NUM}
+  - {t: '$$mdi:backspace$$', h: SYM}
+  - $$mdi:apple-keyboard-shift$$
+  NUM:
   - {t: '[', s: '{'}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: ']', s: '}'}
-  - +
-  - F7
-  - F8
-  - F9
-  - F12
+  - HOME
+  - END
+  - INS
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '''', s: '"'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - {t: '=', s: +}
-  - {t: '-', s: _}
-  - F4
-  - F5
-  - F6
-  - F11
+  - +
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: \, s: '|'}
+  - {t: '-', s: _}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-down-bold$$
   - '*'
-  - F1
-  - F2
-  - {t: F3, type: held alternate}
-  - {t: F10, type: held alternate}
-  - $$mdi:apple-keyboard-control$$
-  - LWIN
-  - $$mdi:apple-keyboard-option$$
+  - {t: /, s: '?'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: ., s: '>', type: held}
   - {t: '0', s: )}
   - {t: '-', s: _}
   - {type: held alternate}
-  - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
-  MOUSE:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  SYM:
   - '{'
   - '&'
   - '*'
   - (
   - '}'
-  - $$mdi:mouse-scroll-wheel$$
   - HOME
-  - {t: '$$mdi:transfer$$', type: trans}
   - END
-  - $$mdi:backspace-reverse-outline$$
+  - PRINTSCREEN
+  - SCROLLLOCK
+  - PAUSE BREAK
   - '"'
   - $
   - '%'
   - ^
   - +
-  - '&mkp MB4'
+  - PG UP
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - PG UP
+  - $$mdi:pan-up$$
   - '~'
   - '!'
   - '@'
   - '#'
   - '|'
-  - '&mkp MB5'
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:mouse-right-click-outline$$
   - PG DN
-  - $$mdi:apple-keyboard-control$$
-  - LWIN
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:pan-left$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:pan-right$$
+  - $$mdi:pan-down$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - (
   - {t: ), type: held}
-  - {t: _, h: SCROLL}
+  - {t: _, h: FNC}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: SCROLL}
-  SCROLL:
-  - PRINTSCREEN
-  - SCROLLLOCK
-  - PAUSE BREAK
-  - INS
-  - $$mdi:backspace-reverse-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - HOME
   - {t: '$$mdi:transfer$$', type: trans}
-  - END
-  - $$mdi:backspace-reverse-outline$$
+  FNC:
+  - Ctl+Q
+  - Ctl+W
+  - Ctl+E
+  - Ctl+R
+  - Ctl+T
+  - Ctl+Y
+  - F7
+  - F8
+  - F9
+  - F12
   - Ctl+A
   - Ctl+S
   - Ctl+D
   - Ctl+F
   - Ctl+G
-  - '&mkp MB4'
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
-  - PG UP
+  - Ctl+H
+  - F4
+  - F5
+  - F6
+  - F11
   - Ctl+Z
   - Ctl+X
   - Ctl+C
   - Ctl+V
-  - Ctl+Y
-  - '&mkp MB5'
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:arrow-down-bold$$', type: held alternate}
-  - {t: '$$mdi:mouse-right-click-outline$$', type: held alternate}
-  - PG DN
-  - $$mdi:apple-keyboard-control$$
-  - LWIN
-  - $$mdi:apple-keyboard-option$$
+  - Ctl+B
+  - Ctl+N
+  - F1
+  - F2
+  - F3
+  - F10
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   SYS:
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -168,12 +168,52 @@ layers:
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
+  - OUT BLE
+  - OUT USB
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  SCROLL:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -189,93 +229,109 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  SNIPE:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {type: held}
-  - {type: held}
-  - {type: held}
-  - {type: held}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [12, 13]
   k: $$mdi:apple-keyboard-shift$$
-  l: [QWER, MOUSE, SCROLL]
+  l: [QWER, SYM, FNC]
 - p: [11, 12]
   k: $$mdi:apple-keyboard-control$$
-  l: [QWER, MOUSE, SCROLL]
+  l: [QWER, SYM, FNC]
 - p: [10, 11]
   k: $$mdi:apple-keyboard-option$$
-  l: [QWER, MOUSE, SCROLL]
+  l: [QWER, SYM, FNC]
 - p: [13, 14]
   k: LWIN
-  l: [QWER, MOUSE, SCROLL]
+  l: [QWER, SYM, FNC]
 - p: [16, 17]
   k: $$mdi:apple-keyboard-shift$$
-  l: [QWER, MOUSE, SCROLL]
+  l: [QWER, SYM, FNC]
 - p: [18, 17]
   k: $$mdi:apple-keyboard-control$$
-  l: [QWER, MOUSE, SCROLL]
+  l: [QWER, SYM, FNC]
 - p: [19, 18]
   k: $$mdi:apple-keyboard-option$$
-  l: [QWER, MOUSE, SCROLL]
+  l: [QWER, SYM, FNC]
 - p: [16, 15]
   k: RWIN
-  l: [QWER, MOUSE, SCROLL]
+  l: [QWER, SYM, FNC]
 - p: [11, 12, 13]
   k: Sft+$$mdi:apple-keyboard-control$$
-  l: [QWER, MOUSE, SCROLL]
+  l: [QWER, SYM, FNC]
 - p: [10, 13, 12]
   k: Sft+$$mdi:apple-keyboard-option$$
-  l: [QWER, MOUSE, SCROLL]
+  l: [QWER, SYM, FNC]
 - p: [11, 12, 10]
   k: Ctl+$$mdi:apple-keyboard-option$$
-  l: [QWER, MOUSE, SCROLL]
+  l: [QWER, SYM, FNC]
 - p: [11, 13, 12, 10]
   k: Ctl+LWIN
-  l: [QWER, MOUSE, SCROLL]
+  l: [QWER, SYM, FNC]
 - p: [16, 17, 18, 19]
   k: Ctl+LWIN
-  l: [QWER, MOUSE, SCROLL]
+  l: [QWER, SYM, FNC]
 - p: [18, 17, 16]
   k: Sft+$$mdi:apple-keyboard-control$$
-  l: [QWER, MOUSE, SCROLL]
+  l: [QWER, SYM, FNC]
 - p: [16, 19, 17]
   k: Sft+$$mdi:apple-keyboard-option$$
-  l: [QWER, MOUSE, SCROLL]
+  l: [QWER, SYM, FNC]
 - p: [18, 17, 19]
   k: Ctl+$$mdi:apple-keyboard-option$$
-  l: [QWER, MOUSE, SCROLL]
+  l: [QWER, SYM, FNC]
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
-  l: [QWER, MOUSE, SCROLL]
-- p: [1, 2]
-  k: '@'
-  l: [QWER]
-- p: [2, 3]
-  k: '#'
-  l: [QWER]
-- p: [3, 4]
-  k: $
-  l: [QWER]
-- p: [4, 5]
-  k: '!'
-  l: [QWER]
-- p: [5, 6]
-  k: '%'
-  l: [QWER]
-- p: [6, 7]
-  k: ^
-  l: [QWER]
-- p: [7, 8]
-  k: '&'
-  l: [QWER]
-- p: [8, 9]
-  k: '*'
-  l: [QWER]
+  l: [QWER, SYM, FNC]
 - p: [20, 21]
   k: Ctl+Z
   l: [QWER]
@@ -291,49 +347,37 @@ combos:
 - p: [23, 24]
   k: Ctl+Y
   l: [QWER]
-- p: [2, 1]
+- p: [4, 14]
   k: +
-  l: [SNIPE]
-- p: [2, 3]
+  l: [NUM]
+- p: [3, 13]
   k: {h: '-', s: _}
-  l: [SNIPE]
-- p: [3, 12]
+  l: [NUM]
+- p: [1, 11]
   k: {t: /, s: '?'}
-  l: [SNIPE]
-- p: [12, 1]
+  l: [NUM]
+- p: [12, 2]
   k: '*'
-  l: [SNIPE]
+  l: [NUM]
 - p: [23, 22]
   k: {t: ',', s: <}
-  l: [SNIPE]
+  l: [NUM]
 - p: [22, 21]
   k: {t: ., s: '>'}
-  l: [SNIPE]
+  l: [NUM]
 - p: [21, 20]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [SNIPE]
+  l: [NUM]
 - p: [16, 18]
   k: $$mdi:apple-keyboard-option$$
   l: [QWER]
 - p: [17, 19]
   k: $$mdi:apple-keyboard-control$$
   l: [QWER]
-- p: [33, 34]
-  k: {t: MOUSE, h: toggle}
-  l: [QWER, MOUSE]
-- p: [34, 35]
-  k: {t: SCROLL, h: toggle}
-  l: [QWER, SCROLL]
-- p: [29, 28]
-  k: SNIPE
-  l: [QWER]
-- p: [28, 27]
-  k: SCROLL
-  l: [QWER]
 - p: [26, 27]
   k: $$mdi:mouse-left-click-outline$$
   l: [QWER]
-- p: [26, 28]
+- p: [28, 27]
   k: $$mdi:mouse-right-click-outline$$
   l: [QWER]
 - p: [26, 28, 27]
